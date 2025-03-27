@@ -1,0 +1,105 @@
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cart-items {
+  width: 65%;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.cart-item-details {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.cart-item h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.cart-item p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item-actions button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cart-item-actions .ant-btn {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cart-item-actions .ant-btn-danger {
+  background: #ff4d4f;
+  color: white;
+}
+
+/* Order Summary */
+.cart-summary {
+  width: 30%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cart-summary h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.cart-summary button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cart-summary .ant-btn-primary {
+  background-color: black;
+  color: white;
+}

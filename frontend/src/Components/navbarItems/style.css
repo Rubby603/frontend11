@@ -1,0 +1,15 @@
+.navbar {
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .shopping-cart {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    z-index: 999;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
